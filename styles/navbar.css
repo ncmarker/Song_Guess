@@ -1,0 +1,27 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-link {
+    margin: 0 15px; 
+    color: grey;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #1ed760;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: underline;
+    color: #1ed760;
+}
