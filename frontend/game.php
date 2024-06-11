@@ -3,9 +3,7 @@
 
     if (!$_SESSION['logged_in']) {
         header('Location: ../frontend/login.php');
-    } else {
-        
-    }
+    } 
 ?>
 <!DOCTYPE html>
 <html>
@@ -119,6 +117,7 @@
                 document.getElementsByClassName('error-message')[0].textContent = "Select a genre first.";
                 return;
             }
+
             var accessToken = "<?php echo $_SESSION['spotify_access_token']; ?>";
 
             fetch('https://api.spotify.com/v1/search?q=genre:%22' + activeGenre + '%22&type=track&limit=30', {

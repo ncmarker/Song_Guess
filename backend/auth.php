@@ -2,8 +2,8 @@
     require '../config/config.php';
 
     $client_id = '3c30dd5d4acc494797da693af19a7eea';
-    // $redirect_uri = 'http://localhost:3000/backend/spotify_callback.php';
-    $redirect_uri = 'http://304.itpwebdev.com/~ncmarker/Final%20Project/backend/spotify_callback.php';
+    $redirect_uri = 'http://localhost:3000/backend/spotify_callback.php';
+    // $redirect_uri = 'http://304.itpwebdev.com/~ncmarker/Final%20Project/backend/spotify_callback.php';
     $scope = 'streaming user-read-email user-read-private';
 
     // Generate a random state value for security

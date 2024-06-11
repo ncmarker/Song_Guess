@@ -8,8 +8,8 @@
     $code = $_GET['code'];
     $client_id = '3c30dd5d4acc494797da693af19a7eea';
     $client_secret = 'dea195220b6d4986b433e2555737ed2b';
-    // $redirect_uri = 'http://localhost:3000/backend/spotify_callback.php';
-    $redirect_uri = 'http://304.itpwebdev.com/~ncmarker/Final%20Project/backend/spotify_callback.php';
+    $redirect_uri = 'http://localhost:3000/backend/spotify_callback.php';
+    // $redirect_uri = 'http://304.itpwebdev.com/~ncmarker/Final%20Project/backend/spotify_callback.php';
 
     $url = 'https://accounts.spotify.com/api/token';
     $headers = [
